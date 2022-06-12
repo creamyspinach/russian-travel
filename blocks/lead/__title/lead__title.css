@@ -2,8 +2,16 @@
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
-    width: 720px;
-    height: 200px;
+    max-width: 720px;
+    max-height: 200px;
     margin: 56px 0 0;
     text-align: center;
 }
+
+@media screen and (max-width: 740px) {
+    .lead__title{
+        font-size: 40px;
+        line-height: 44px; /*значения для разрешения в 320пх, но переполняться title & subtitle начинают уже при 740пх*/
+    }
+}
+

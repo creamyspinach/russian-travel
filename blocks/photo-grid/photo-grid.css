@@ -1,8 +1,37 @@
 .photo-grid{
     margin: 92px auto 0;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, 284px);
+    grid-template-rows: repeat(auto-fit, 213px);
     gap: 16px;
     max-width: 1184px;
+    padding: auto;
+    padding: 0 16px 0; /* чтобф между стандартными расширениями не прилипало некрасиво к бокам */
+}
+
+@media screen and (max-width: 1024px){
+    .photo-grid{
+        grid-template-columns: repeat(auto-fit, 300px);
+        grid-template-rows: repeat(auto-fit, 225px);
+        gap: 14px;
+        padding-left: 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .photo-grid{
+        grid-template-columns: repeat(auto-fit, 352px);
+        grid-template-rows: repeat(auto-fit, 264px);
+        padding-left: 24px;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 384px) {
+    .photo-grid{
+        grid-template-columns: repeat(auto-fit, 288px);
+        grid-template-rows: repeat(auto-fit, 216px);
+        gap: 12px;
+        padding-left: 16px;
+    }
 }

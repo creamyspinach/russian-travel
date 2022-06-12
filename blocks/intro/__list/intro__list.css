@@ -5,4 +5,11 @@
     font-weight: 700;
     font-size: 12px;
     line-height: 18px;
+    align-self: flex-start;
+}
+
+@media screen (max-width: 320px) {
+    .intro__list{
+        margin-top: 34px; /* с такого пиксельперфект угарнул слегка)))*/
+    }
 }

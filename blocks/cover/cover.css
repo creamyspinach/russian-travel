@@ -1,8 +1,5 @@
-.cover{
-    margin: 92px 0 92px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 740px;
+.cover {
+    margin: 92px auto 92px;
+    max-width: 1184px;
+    position: relative;
 }
