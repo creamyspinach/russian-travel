@@ -6,3 +6,10 @@
     text-transform: uppercase;
     margin: 0;
 }
+
+@media screen and (max-width: 580px) {
+    .place-right__url-heading{
+        margin-top: 16px;
+        margin-left: 16px;
+    }
+}
