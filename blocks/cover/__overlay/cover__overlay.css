@@ -43,8 +43,8 @@
     }
 }
 
-@media screen and(max-width: 320px) {
+@media screen and (max-width: 500px) {
     .cover__overlay {
-        max-height: 200px; /* очень долго мучался с блоком cover, не понял, как его на таком разрешении сделать(((*/
+        min-height: 200px; /* очень долго мучался с блоком cover, не понял, как его на таком разрешении сделать(((*/
     }
 }

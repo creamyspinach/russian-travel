@@ -1,0 +1,11 @@
+.place__link-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+@media screen and (max-width: 550px) {
+    .place__link-container{
+        margin-left: 16px;
+    }
+}
