@@ -1,4 +1,4 @@
-.lang{
+.header__lang{
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .lang{
+    .header__lang{
         margin-top: 14px;
     }
 }

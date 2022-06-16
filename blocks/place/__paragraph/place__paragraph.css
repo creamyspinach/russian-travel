@@ -11,6 +11,6 @@
 
 @media screen and (max-height: 768px) {
     .place__paragraph{
-        font-size: 16;
+        font-size: 16px;
     }
 }
